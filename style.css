@@ -1,0 +1,65 @@
+body{
+    margin: 0;padding:0 ;
+}
+
+#hero{
+    position: relative;
+}
+
+#hero video{
+    height: 100VH;
+    width: 100%;
+    object-fit: cover;
+    background-position: absolute;
+    z-index: 10;
+}
+
+
+#hero .content{
+   
+    height: 100%;
+    width:100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    border-radius: 400px; 
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    
+}
+
+.yazÃ„Â±{
+color: red;
+}
+
+#hero .container{
+    display: flex;
+    margin-right: 200px;
+}
+
+.fab{
+    color: rgb(255, 0, );
+    padding: 10px;
+    margin-top: 200px;
+    font-size: 30px;
+  
+    
+}
+#content .fab :hover{
+    color:red
+}
+.linkler :hover{
+    color: red;
+    
+}
+.linkler{
+    margin-left: -160px;
+}
